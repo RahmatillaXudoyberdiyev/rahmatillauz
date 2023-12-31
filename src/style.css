@@ -472,8 +472,11 @@ footer .social-medias a{
 
 @media screen and (max-width: 399px){
     .hero{
-        height: 50vh;
         padding: 2% 2%;
+    }
+    .aboutMe{
+        padding: 4% 5%;
+        height: 80vh;
     }
     .aboutMe .title{
         font-size: 1rem;
