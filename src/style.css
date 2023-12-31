@@ -288,6 +288,7 @@ footer .social-medias a{
 
     .hero{
         padding: 0;
+        height: 80vh;
     }
 
     .aboutMe{
@@ -364,7 +365,7 @@ footer .social-medias a{
     }
 
     .hero{
-        padding: 0;
+        padding: 5% 10%;
     }
 
     .aboutMe{
@@ -402,6 +403,19 @@ footer .social-medias a{
 }
 
 @media screen and (max-width: 650px) {
+    .hero{
+        height: 65vh;
+        padding: 2% 10%;
+    }
+    .hero .avatar img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .hero .devices img{
+        width: 400px;
+        height: 200px;
+    }
     .my_works .works{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -424,14 +438,19 @@ footer .social-medias a{
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .hero{
+        height: 55vh;
+        padding: 2% 4%;
+    }
+
     .hero .avatar img{
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 
     .hero .devices img{
-        width: 400px;
-        height: 200px;
+        width: 300px;
+        height: 100px;
     }
     .aboutMe{
         padding: 4% 5%;
@@ -453,13 +472,8 @@ footer .social-medias a{
 
 @media screen and (max-width: 399px){
     .hero{
-        height: 20vh;
-    }
-    .hero .avatar{
-        display: none;
-    }
-    .hero .devices{
-        display: none;
+        height: 50vh;
+        padding: 2% 2%;
     }
     .aboutMe .title{
         font-size: 1rem;
