@@ -26,4 +26,8 @@ I'm not just a student; I'm a self-directed learner with a passion for exploring
 
 Feel free to explore, contribute, and reach out! Let's innovate and explore the limitless possibilities in the AI universe together.
 
+## License
+
+This project is licensed under the terms of the [MIT License](LICENSE). Please see the `LICENSE` file for full details.
+
 Happy coding!
